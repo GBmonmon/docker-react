@@ -3,11 +3,11 @@ services:
   - docker
 
 before-build:
-  - docker build -t gbmonmon/docker-react -f Dockerfile.dev .
+  - docker build -t gbmonmon/docker-react:latest -f Dockerfile.dev .
 
 
 script:
-  - docker container run gbmonmon/docker-react npm run test -- --coverage
+  - docker container run gbmonmon/docker-react:latest npm run test -- --coverage
 
 
 deploy:
