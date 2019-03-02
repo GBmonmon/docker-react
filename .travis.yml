@@ -2,8 +2,8 @@ sudo: required
 services:
   - docker
 
-before-build:
-  - docker build -t gbmonmon/docker-react:latest -f Dockerfile.dev .
+before_install:
+  - docker build -t gbmonmon/docker-react:latest -f Dockerfile.dev ./
 
 
 script:
