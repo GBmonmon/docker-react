@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn Gbmonmon's life and his wife's life
+            Learn Gbmonmon's life and his wife's life + featurebranch
           </a>
         </header>
       </div>
